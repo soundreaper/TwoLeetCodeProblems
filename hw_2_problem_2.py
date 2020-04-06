@@ -5,6 +5,12 @@ stored in reverse order and each of their nodes contain a single digit. Add the 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 """
 
+"""
+Okay, so there will only be positive numbers and the digits are in backwards order. I must create the integers from the linked
+list and then add them together and then return that answer in the same format. The easiest way to do this would be to just create
+the numbers along the linked list and then generate a new linked list with the solution value.
+"""
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
